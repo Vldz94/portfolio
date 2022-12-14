@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(https://scontent.fcrk1-1.fna.fbcdn.net/v/t31.18172-8/11782270_10200902596843709_4450295703910344267_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeE-kBswy198UfAV9J1N9mCp8tQjd7s2h9by1CN3uzaH1kzZsO_fDap7LDzeK62N_SA&_nc_ohc=s67LNhXCwywAX__v1-v&tn=CD4oLNsDwEqColfP&_nc_ht=scontent.fcrk1-1.fna&oh=00_AfBxkPhSmgz--iaA4IE9ru3jddJQv6rUOqUdobCBmOkRMw&oe=63C0A545);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+	font-family: "Audiowide", sans-serif;
+}
+
+nav{
+    background-color: dimgrey;
+    opacity: .60;
+}
+
+/*HOME*/
+.header-heading{
+	width: 500px;
+	position: absolute;
+	left: 20%;
+	top: 50%;
+	color: white;
+	transform: translate(-20%,-50%);
+
+}
+
+.header-heading h1{
+	font-size: 200px;
+	margin: 0px;
+	letter-spacing: 3px;
+}
+
+.header-heading h3{
+	font-size: 150px;
+	margin: 0px;
+	letter-spacing: 3px;
+}
+
+.header-heading h1 span{
+	color: Red;
+}
+
+.header-btn{
+	width: 120px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	box-shadow: 5px 10px 15px rgba(0, 0, 1, 0.4);
+	border-radius: 5px;
+	color: white;
+	transition: 0.6s ease-in-out;
+
+
+}
